@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Friendly Test - Ngerank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Mobile Friendly Test</h1>
+        <label for="urlInput">Enter Website URL:</label>
+        <input type="text" id="urlInput" placeholder="https://example.com">
+        <button onclick="analyzeMobile()">Analyze</button>
+
+        <div class="output" id="outputSection" style="display:none;">
+            <h2>Result:</h2>
+            <p id="statusMessage"></p>
+            <iframe id="mobileFrame" width="390" height="700" style="border:1px solid #999999; border-radius:12px;"></iframe>
+        </div>
+    </div>
+
+    <footer style="text-align:center; margin-top:2rem; font-size:0.9rem;">
+        Built by <a href="https://ngerank.id" target="_blank" style="color:#FFD166; text-decoration:none;">Ngerank</a> — Built to Rank.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
